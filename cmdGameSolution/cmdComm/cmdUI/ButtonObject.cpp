@@ -46,7 +46,7 @@ namespace CmdUI
     }
 
     // 3. 버튼 그리기 함수
-    void DrawButton(BUTTON* btn, )
+    void DrawButton(BUTTON* btn)
     {
         // 상태에 따른 색상 결정
         unsigned short currentColor = btn->isHovered ? btn->colorHover : btn->colorDefault;

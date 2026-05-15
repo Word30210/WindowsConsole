@@ -5,7 +5,7 @@ namespace CmdUI
 {
     TEXT* CreateText(int x, int y, const wchar_t* label, unsigned short color)
     {
-        TEXT* txt = (UI_TEXT*)malloc(sizeof(TEXT));
+        TEXT* txt = (TEXT*)malloc(sizeof(TEXT));
         txt->x = x;
         txt->y = y;
         txt->color = color;

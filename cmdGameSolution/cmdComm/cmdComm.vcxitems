@@ -16,6 +16,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)ButtonObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)cmdUI\ButtonObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)cmdUI\CheckBoxObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)cmdUI\EditObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)cmdUI\SliderObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)cmdUI\TextObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)CmdUtil.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Collision.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)InputManager.cpp" />
@@ -24,6 +29,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)ButtonObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)cmdUI\ButtonObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)cmdUI\CheckBoxObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)cmdUI\EditObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)cmdUI\SliderObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)cmdUI\TextObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)CmdUtil.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Collision.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)InputManager.h" />

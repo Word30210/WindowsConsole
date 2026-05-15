@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.cmdProject001", "cmdProject001\cmdProject001.vcxproj", "{901A6F0A-D424-4E93-962A-D98AE270B5D5}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.cmdSokoban", "cmdSokoban\cmdSokoban.vcxproj", "{215237B3-4919-4AF7-8425-C0727D5FD770}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.cmdTetris", "cmdTetris\cmdTetris.vcxproj", "{D1194252-3B6D-4780-BE29-46C0AF549F6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "my-own-projects", "my-own-projects", "{FA8DF4C0-44F8-4513-A3BE-D5AECABB8D66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game-setting", "game-setting\game-setting.vcxproj", "{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,9 +87,20 @@ Global
 		{D1194252-3B6D-4780-BE29-46C0AF549F6F}.Release|x64.Build.0 = Release|x64
 		{D1194252-3B6D-4780-BE29-46C0AF549F6F}.Release|x86.ActiveCfg = Release|Win32
 		{D1194252-3B6D-4780-BE29-46C0AF549F6F}.Release|x86.Build.0 = Release|Win32
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Debug|x64.ActiveCfg = Debug|x64
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Debug|x64.Build.0 = Debug|x64
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Debug|x86.Build.0 = Debug|Win32
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Release|x64.ActiveCfg = Release|x64
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Release|x64.Build.0 = Release|x64
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Release|x86.ActiveCfg = Release|Win32
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9CE62F8-684D-42C0-8F65-FD9FDDE06434} = {FA8DF4C0-44F8-4513-A3BE-D5AECABB8D66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B84B3A9-0D6D-43AF-B12F-BD0A41721FE0}
@@ -97,6 +112,7 @@ Global
 		cmdComm\cmdComm.vcxitems*{3e5a195c-d4c7-4d59-86b1-d833359c113d}*SharedItemsImports = 4
 		cmdComm\cmdComm.vcxitems*{4163c4d5-1eed-445d-ae3a-2e832505e7ba}*SharedItemsImports = 4
 		cmdComm\cmdComm.vcxitems*{901a6f0a-d424-4e93-962a-d98ae270b5d5}*SharedItemsImports = 4
+		cmdComm\cmdComm.vcxitems*{c9ce62f8-684d-42c0-8f65-fd9fdde06434}*SharedItemsImports = 4
 		cmdComm\cmdComm.vcxitems*{d1194252-3b6d-4780-be29-46c0af549f6f}*SharedItemsImports = 4
 		cmdComm\cmdComm.vcxitems*{f5a14bb8-f100-4e7c-852f-ce26f8b0d3fb}*SharedItemsImports = 4
 	EndGlobalSection
